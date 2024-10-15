@@ -23,4 +23,9 @@ li a:hover {
   background-color: #111;
 }
 
+ul.b {
+  list-style-type: circle;
+}
+
+
 
