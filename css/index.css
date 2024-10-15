@@ -1,5 +1,5 @@
 
-ul {
+.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -7,11 +7,11 @@ ul {
   background-color: #000;
 }
 
-li {
+.nav {
   float: left;
 }
 
-li a {
+.nav {
   display: block;
   color: white;
   text-align: center;
@@ -19,11 +19,11 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.nav:hover {
   background-color: #111;
 }
 
-ul b {
+ul li {
   list-style-type: circle;
 }
 
