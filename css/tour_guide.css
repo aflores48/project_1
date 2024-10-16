@@ -4,6 +4,13 @@
   background-color: #333;
 }
 
+#main p {
+font-family: Tahoma, Verdana, sans-serif;
+}
+
+#main {
+  
+
 #main-nav ul {
   list-style-type: none;
   margin: 0;
