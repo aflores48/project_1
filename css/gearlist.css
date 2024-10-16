@@ -1,23 +1,33 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+#main-nav {
+  float: left;
+  width: 100%;
   background-color: #333;
 }
 
-li {
+#main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   float: left;
+  position: relative;
+  left:50%;
 }
 
-li a {
+#main-nav ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+}
+
+#main-nav ul li a {
+  padding: 10px 25px;
   display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
+  color: #ccc;
 }
 
-li a:hover {
-  background-color: #111;
+#main-nav ul li a:hover {
+  background-color: #ccc;
+  color: #333;
 }
+
