@@ -6,6 +6,10 @@ body {
   font-family: "Trirong", serif;
 }
 
+#main p {
+font-family: Tahoma, Verdana, sans-serif;
+}
+
 #main-nav {
   float: left;
   width: 100%;
