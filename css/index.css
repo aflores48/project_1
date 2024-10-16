@@ -31,6 +31,9 @@
   color: #333;
 }
 
+#main {
+  text-align: center;
+}
 #list1 {
   list-style-type: circle;
 }
