@@ -1,4 +1,5 @@
-#main h1 h2 h3 ul li p {border-style: inset;
+#main h1 h2 h3 ul li p {
+  border-style: inset;
   border: 2px solid red;
   border-radius: 5px;
 }
