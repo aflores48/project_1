@@ -1,3 +1,12 @@
+section {
+  background: #FEF9D9;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+
 
 
 #main h1 h2 h3 {
