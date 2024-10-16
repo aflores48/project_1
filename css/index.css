@@ -10,7 +10,7 @@ section {
 #main ul {
   list-style-type: square;
   padding-left: 20px;
-  border: 2px solid blue;
+  border: 2px solid orange;
   border-radius: 5px;
   border-style: inset;
 }
