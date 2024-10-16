@@ -1,9 +1,10 @@
-#main ul {
-  border: 2px solid blue;
-  border-radius: 5px;
-}
+
 
 #main ul {
+  list-style-type: square;
+  padding-left: 20px;
+  border: 2px solid blue;
+  border-radius: 5px;
   border-style: inset;
 }
 
@@ -48,9 +49,6 @@ font-family: Tahoma, Verdana, sans-serif;
   color: #333;
 }
 
-#main {
-  text-align: center;
-}
 
 
 
