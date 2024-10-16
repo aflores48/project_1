@@ -2,9 +2,9 @@ body {
   background-color: green;
 }
 
-#main {
-  
-
+#main h2 h3 {
+  font-family: "Trirong", serif;
+}
 
 #main-nav {
   float: left;
