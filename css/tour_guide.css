@@ -9,7 +9,8 @@ font-family: Tahoma, Verdana, sans-serif;
 }
 
 #main {
-  
+  text-align: center;
+}
 
 #main-nav ul {
   list-style-type: none;
