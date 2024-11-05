@@ -29,6 +29,7 @@ font-family: Tahoma, Verdana, sans-serif;
   background-color: #333;
 }
 
+
 #main-nav ul {
   list-style-type: none;
   margin: 0;
@@ -55,4 +56,20 @@ font-family: Tahoma, Verdana, sans-serif;
   background-color: #ccc;
   color: #333;
 }
+
+img {
+  width: 100%;               
+  height: auto;               
+  max-width: 600px;          
+  border-radius: 8px;        
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  display: block;             
+  margin: 0 auto;            
+}
+
+img:hover {
+  transform: scale(1.05);    
+  transition: transform 0.3s ease-in-out; 
+}
+
 
