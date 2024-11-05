@@ -6,13 +6,6 @@ section {
   max-width: 800px;
 }
 
-#main ul {
-  list-style-type: square;
-  padding-left: 20px;
-  border: 2px solid orange;
-  border-radius: 5px;
-  border-style: inset;
-}
 
 #main h2 h3 {
   font-family: "Trirong", serif;
