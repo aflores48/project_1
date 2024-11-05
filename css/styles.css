@@ -39,6 +39,7 @@ font-family: Tahoma, Verdana, sans-serif;
 }
 
 #main-nav ul li a {
+  list-style: none;
   padding: 10px 25px;
   display: block;
   text-decoration: none;
