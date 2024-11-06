@@ -10,6 +10,7 @@ section {
 
 #main h2 h3 {
   font-family: "Trirong", serif;
+  font-size: 4em;
 }
 
 #main p {
@@ -66,7 +67,7 @@ img:hover {
   transition: transform 0.3s ease-in-out; 
 }
 
-#main{
+#main {
   background: #c1e6f7;
   list-style-type: none;
   padding-left: 0;
