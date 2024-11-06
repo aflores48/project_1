@@ -69,5 +69,6 @@ img:hover {
 #main{
   background: #c1e6f7;
   list-style-type: none;
+  padding-left: 0;
 }
 
