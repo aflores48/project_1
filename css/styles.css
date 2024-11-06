@@ -11,10 +11,12 @@ section {
 #main h2 h3 {
   font-family: "Trirong", serif;
   font-size: 1.25em;
+  list-style-type: none;
 }
 
 #main p {
-font-family: Tahoma, Verdana, sans-serif;
+  font-family: Tahoma, Verdana, sans-serif;
+  list-style-type: none;
 }
 
 #main-nav {
