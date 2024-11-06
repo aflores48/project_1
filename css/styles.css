@@ -44,11 +44,11 @@ font-family: Tahoma, Verdana, sans-serif;
   padding: 0.625em 1.5625em;
   display: block;
   text-decoration: none;
-  color: #ccc;
+  color: #f2bf85;
 }
 
 #main-nav ul li a:hover {
-  background-color: #ccc;
+  background-color: #f2bf85;
   color: #333;
 }
 
