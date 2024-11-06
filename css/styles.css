@@ -76,7 +76,6 @@ img:hover {
 iframe {
   display: block;
   float: none;
-  position: relative;
   margin: 20px auto;
   border: 5px solid #FFF5CD;
   border-radius: 8px;
