@@ -66,7 +66,8 @@ img:hover {
   transition: transform 0.3s ease-in-out; 
 }
 
-body{
-  ##background: #c1e6f7;
+#main{
+  background: #c1e6f7;
+  list-style: none;
 }
 
