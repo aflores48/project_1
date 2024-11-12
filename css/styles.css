@@ -86,20 +86,63 @@ iframe {
   max-width: 560px;
 }
 
-@media (max-width: 600px) {
-  section {
-    padding: 1rem;
+@media (min-width: 600px) {
+  body {
+    background-color: #e0e0e0;
   }
 
-  h1 {
-    font-size: 2rem;
+  header {
+    padding: 20px;
+    text-align: left;
   }
 
-  #main-nav ul li {
-    margin-right: 1rem;
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav a {
+    margin: 0 25px;
+    font-size: 18px;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
   }
 }
 
+@media (min-width: 1024px) {
+  body {
+    background-color: #ffffff;
+    font-size: 16px;
+  }
+
+  header {
+    padding: 30px;
+    text-align: left;
+    font-size: 1.5rem;
+  }
+
+  nav {
+    justify-content: space-between;
+  }
+
+  nav a {
+    margin: 0 30px;
+    font-size: 20px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .main-content {
+    display: flex;
+    gap: 20px;
+  }
+}
 #map {
   height: 100%;
   border: 5px solid red;
