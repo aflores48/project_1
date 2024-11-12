@@ -1,7 +1,7 @@
 let map;
 let marker;
 let infoWindow;
-let polygon;
+
 
 function initMap() {
   
