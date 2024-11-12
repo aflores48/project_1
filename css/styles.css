@@ -85,10 +85,26 @@ iframe {
   max-width: 560px;
 }
 
+@media (max-width: 600px) {
+  section {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  #main-nav ul li {
+    margin-right: 1rem;
+  }
+}
+
 #map {
-  width: 80%;
-  height: 80%;
-  margin-top: 20px;
-  border: 2px solid #ccc;
-  border-radius: 10px;
+  height: 100%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
