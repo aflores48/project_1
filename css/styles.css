@@ -85,3 +85,10 @@ iframe {
   max-width: 560px;
 }
 
+#map {
+  width: 80%;
+  height: 80%;
+  margin-top: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
