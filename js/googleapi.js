@@ -2,7 +2,6 @@ let map;
 let marker;
 let infoWindow;
 
-
 function initMap() {
   
   const center = { lat: 44.429, lng: -110.584 }; 
@@ -37,5 +36,5 @@ function initMap() {
     });
   });
 }
-google.maps.event.addDomListener(window,'load',initMap);
+
 
