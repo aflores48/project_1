@@ -23,6 +23,7 @@ section {
   float: left;
   width: 100%;
   background-color: #f2bf85;
+  border: 10px solid red;
 }
 
 
