@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+  <title>Google Maps API</title>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCr06XgFmTqX-jyP99kNQQb57yOzlE10Wg&loading=async&callback=initMap" async defer></script>
+  <script src="googleapi.js"></script>
+</head>
+<body id="main">
+  <nav id="main-nav">
+  <ul>
+    <li><a href="index.html" >Resume</a></li>
+    <li><a href="gearlist.html" >Gear List</a></li>
+    <li><a href="tour_guide.html" >Yellowstone Sights</a></li>
+    <li><a href="googlemaps.html" >Map</a></li>
+  </ul>
+  </nav>
+  <div id="map" style="height: 400px; width: 100%; text-align: center; "></div>
+  <script>
+    let map;
+    let marker;
+    let infoWindow;
+
+
+    function initMap() {
+  
+    const center = { lat: 44.429, lng: -110.584 }; 
+
+    map = new google.maps.Map(document.getElementById("map"), {
+      center: center,
+      zoom: 8,
+    });
+
+    marker = new google.maps.Marker({
+      position: { lat: 44.429, lng: -110.584 }, 
+      map: map,
+      title: "This is a custom marker",
+    });
+  
+    infoWindow = new google.maps.InfoWindow({
+      content: "<h3>Yellowstone National Park</h3>",
+    });
+
+    marker.addListener("click", () => {
+      infoWindow.open(map, marker);
+    });
+
+    google.maps.event.addListener(map, "click", function (event) {
+      const clickedLocation = event.latLng;
+
+      new google.maps.Marker({
+        position: clickedLocation,
+        map: map,
+        title: "New Marker",
+      });
+    });
+  }
+  google.maps.event.addDomListener(window,'load',initMap);
+  </script>
+</body>
+</html>
+

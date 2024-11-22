@@ -1,0 +1,154 @@
+section {
+  background: #b1cefc;
+  padding: 1.25em;
+  margin: 20px auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 50em;
+  list-style-type: none;
+}
+
+
+#main h2 h3 {
+  font-family: "Trirong", serif;
+  font-size: 1.25em;
+  list-style-type: none;
+}
+
+#main p {
+  font-family: Tahoma, Verdana, sans-serif;
+  list-style-type: none;
+}
+
+#main-nav {
+  float: left;
+  width: 100%;
+  background-color: #f2bf85;
+  border: 10px solid red;
+}
+
+
+#main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  position: relative;
+  left:50%;
+}
+
+#main-nav ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+}
+
+#main-nav ul li a {
+  list-style-type: none;
+  padding: 0.625em 1.5625em;
+  display: block;
+  text-decoration: none;
+  color: #000000;
+}
+
+#main-nav ul li a:hover {
+  background-color: #f2bf85;
+  color: #000000;
+}
+
+img {
+  width: 100%;               
+  height: auto;               
+  max-width: 600px;          
+  border-radius: 8px;        
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  display: block;             
+  margin: 0 auto;            
+}
+
+img:hover {
+  transform: scale(1.05);    
+  transition: transform 0.3s ease-in-out; 
+}
+
+#main {
+  background: #f2bf85;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+iframe {
+  display: block;
+  float: none;
+  margin: 20px auto;
+  border: 5px solid #FFF5CD;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 560px;
+}
+
+@media (min-width: 480px) {
+  body {
+    background-color: #e0e0e0;
+  }
+
+  header {
+    padding: 20px;
+    text-align: left;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav a {
+    margin: 0 25px;
+    font-size: 18px;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: #ffffff;
+    font-size: 16px;
+  }
+
+  header {
+    padding: 30px;
+    text-align: left;
+    font-size: 1.5rem;
+  }
+
+  nav {
+    justify-content: space-between;
+  }
+
+  nav a {
+    margin: 0 30px;
+    font-size: 20px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .main-content {
+    display: flex;
+    gap: 20px;
+  }
+}
+#map {
+  height: 100%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
